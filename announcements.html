@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="announcements.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<link rel="stylesheet" type="text/css" href="footer.css" />
+
+<title>Announcemets University of the Aegean</title>
+
+</head>
+
+<body>
+    <nav class="navbar my-navbar">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">People <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="acstaff.html">Academic Staff</a></li>
+                <li><a href="adstaff.html">Administrative Staff</a></li>
+              </ul>
+            </li>
+            <li><a href="program.html">Programme of studies</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+
+   <h1 class="hhh1">•Ανακοινώσεις•</h1>
+
+      <article id="edw1">
+        <h2>Πρόγραμμα εξεταστικής εαρινού εξαμήνου</h2>
+        <p><span id="date" ></span></p>
+        <p><ul class = "li">
+            <li class="lil">01/6 Ασφάλεια</li>
+            <li class="lil">04/6 Δομές δεδομένων</li>
+            <li class="lil">08/6 Κρυπτογραφία</li>
+            <li class="lil">13/6 Διαδίκτυο των πραγμάτων</li>
+            <li class="lil">23/6 Ασφάλεια ΙΙ</li>
+          </ul></p>
+          <p><a href="https://uni-student.aegean.gr/" target="_blank">Κάνε δήλωση μαθημάτων</a></p>
+        </article>
+
+        <article id="edw2">
+            <h2>Πρωτιά για τον Γιώργο Κεντέρη στο Athens Hackathon</h2>
+            <p><span>3/2/2023</span></p>
+            <img src="https://www.paysafe.com/fileadmin/_processed_/f/4/csm_Kamil_Debowski_Global_Winner_1eb838f761.jpg" alt="giwrgos kenteris at hackathon" style="width: 100%; height: 100%; object-fit: fill;">
+            <p>Την πρώτη θέση κατέκτησε ο φοιτητής Παν. Αιγαίου Γιώργος Κεντέρης στο Αthens hackathon! Με το εξαιρετικό έργο του, 
+                απέδειξε το ταλέντο και την καινοτομία του στον ψηφιακό κόσμο. Αναμένουμε με 
+                ανυπομονησία τα επόμενα επιτεύγματά του και τις καινοτομίες που θα φέρει στον κόσμο της τεχνολογίας.</p>
+            </article>
+   
+        <article id="edw3">
+                <h2>Πρoγράμματα Erasmus 2023</h2>
+                <p><span>3/2/2023</span></p>
+                <img src="https://www.consilium.europa.eu/media/54319/erasmus.png" alt="europe erasmus" style="width: 100%; height: 100%; object-fit: fill;">
+                <p>Oι αιτήσεις άνοιξαν επικοινώνησε με τη γραμματεία σου για να μάθεις περισσότερα.</p>
+                <p><a href="https://www.icsd.aegean.gr/" target="_blank">Icsd Aegean</a></p>
+                </article>
+
+      
+        <script>
+            // get hmeromhnia
+            var currentDate = new Date();
+            var dateElement = document.getElementById("date");
+            dateElement.textContent = currentDate.toLocaleDateString();
+          </script>
+
+          <h2> </h2>
+<footer>
+    <div class="footer-image">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Potami_Beach_in_Karlovasi%2C_Samos.jpg" alt="Footer Image">
+    </div>
+    <div class="mple-koutaki">
+      <h3>Πανεπιστήμιο Αιγαίου</h3>
+      <p>Καρλόβασι Σάμου 2022-2023 © ICSD 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d835.0578554197841!2d26.70505847528284!3d37.79569482025868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bc6a0187727ef5%3A0xb1901cb39d97cd1c!2sUniversity%20of%20the%20Aegean%2C%20Dept.%20of%20Information%20and%20Communication%20Systems%20Engineering!5e0!3m2!1sel!2sgr!4v1680646325520!5m2!1sel!2sgr" width="100%" 
+        height="100%" 
+        frameborder="0" 
+        style="border:0"
+        allowfullscreen></iframe>
+      </p>
+      
+    </div>
+  </footer>
+</body>
+</html>

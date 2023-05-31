@@ -1,0 +1,27 @@
+body {/*alliws to navbar kryvei to panw panw */
+    padding-top: 60px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+
+.navbar {
+  z-index: 999;
+    position: absolute;
+    padding-bottom: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(135, 227, 130);
+    color: white;
+  }
+  
+  
+  .navbar-nav li:first-child a { /*prwto stoixeio ths listas */
+    color: rgb(17, 2, 59);
+    font-weight: bold;
+  }
+   /*telos menu */

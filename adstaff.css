@@ -1,0 +1,62 @@
+table {
+    border-collapse: collapse;
+    max-width: 60rem;
+    border: 1px solid black;
+    
+
+    margin-bottom: 20px;
+  }
+  
+  th {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 8px;
+   
+  }
+
+  
+  
+  .kenaki{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  body{
+    color:rgb(34, 84, 7);
+    background-color: rgb(243, 205, 232);
+   
+}
+
+  .cont {
+    
+    position: absolute;
+    padding-left: 15rem;
+    z-index: 2;
+    
+  }
+
+  .cont1 {
+    float: left;
+    padding-top: 28rem;
+    padding-left: 15rem; 
+    position: absolute;
+   /*den kserw pws na to kanw kai den patietai kai ama valw idio index apla kanoun cancel to ena to allo pali*/
+  
+  }
+
+  
+  .cont2{
+    position: absolute;
+    float: right;
+    padding-left: 54rem;
+    
+  }
+
+  .hrema{
+    padding-top: 50rem;
+  }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="home.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<link rel="stylesheet" type="text/css" href="footer.css" />
+
+<title>University of the Aegean</title>
+
+</head>
+
+<br>
+    
+        <div class="jumbotron">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-8">
+                <h1 class="title1">University of the Aegean</h1>
+                <p class="lead">Department of Information and Communication Systems Engineering</p>
+              </div>
+              <div class="col-md-4 text-right">
+                <img class="logo" src="https://myria.math.aegean.gr/~atsol/newpage/software/aegeanlogo/logo_horizontal_el.png" alt="Logo">
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+      <!-- telos banner-->
+      
+
+
+      <nav class="navbar my-navbar">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">People <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="acstaff.html">Academic Staff</a></li>
+                <li><a href="adstaff.html">Administrative Staff</a></li>
+              </ul>
+            </li>
+            <li><a href="program.html">Programme of studies</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+   <!-- telos menu bar-->
+
+   
+   
+   <p class="my-paragraph" style="margin-left: 10px;">
+    Kάντε κλικ σε αυτό το μήνυμα για να εξαφανιστεί 
+  <br>  Αυτό το site είναι στα πλαίσια εργασίας </br>
+  </p>
+  
+   <script>
+    $(document).ready(function(){
+  $(".my-paragraph").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+
+
+    <h3 class="announcements">Τελευταία νέα:</h3>
+    <ul class="nea">
+      <li class="lili"><a href="announcements.html#edw1">Πρόγραμμα εξεταστικής εαρινού εξαμήνου</a></li>
+      <li class="lili"><a href="announcements.html#edw2">Πρωτιά για τον Γιώργο Κεντέρη στο Athens Hackathon</a></li>
+      <li class="lili"><a href="announcements.html#edw3">Πρoγράμματα Erasmus 2023</a></li>
+    </ul>
+    
+    <div id="frame">
+      <input type="radio" name="frame" id="frame1" checked />
+      <input type="radio" name="frame" id="frame2" />
+      <input type="radio" name="frame" id="frame3" />
+      <div id="slides">
+        <div id="overflow">
+          <div class="inner">
+            <div class="frame">
+              <img class="imgg" src="https://www.isamos.gr/wp-content/uploads/2015/10/bseitani112.jpg">
+            </div>
+            <div class="frame">
+              <img class="imgg" src="https://upload.wikimedia.org/wikipedia/commons/7/71/Karlovasi.JPG">
+            </div>
+            <div class="frame">
+              <img class="imgg" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/52/e9/92/vista.jpg?w=1200&h=-1&s=1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="controls">
+        <label for="frame1"></label>
+        <label for="frame2"></label>
+        <label for="frame3"></label>
+      </div>
+      <div id="bullets">
+        <label for="frame1"></label>
+        <label for="frame2"></label>
+        <label for="frame3"></label>
+      </div>
+    </div>
+
+   <footer>
+    <div class="footer-image">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Potami_Beach_in_Karlovasi%2C_Samos.jpg" alt="Footer Image">
+    </div>
+    <div class="mple-koutaki">
+      <h3>Πανεπιστήμιο Αιγαίου</h3>
+      <p>Καρλόβασι Σάμου 2022-2023 © ICSD 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d835.0578554197841!2d26.70505847528284!3d37.79569482025868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bc6a0187727ef5%3A0xb1901cb39d97cd1c!2sUniversity%20of%20the%20Aegean%2C%20Dept.%20of%20Information%20and%20Communication%20Systems%20Engineering!5e0!3m2!1sel!2sgr!4v1680646325520!5m2!1sel!2sgr" width="100%" 
+        height="100%" 
+        frameborder="0" 
+        style="border:0"
+        allowfullscreen></iframe>
+      </p>
+      
+    </div>
+  </footer>
+  
+   
+
+</body>
+</html>

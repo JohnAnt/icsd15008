@@ -1,0 +1,84 @@
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+  
+  .container {
+    
+    width: 1%;
+  background-color: #8a8cd7;
+  border: 1px solid #0a014e;
+  padding: 10px;
+
+  
+  }
+
+  .helpkoutaki{
+    width: 280%;
+    border: 2px solid #19b1d3;
+    overflow-x: auto;
+    background-color: rgb(210, 243, 160);
+  }
+
+  .koutaki{
+  padding-top: 20px; 
+  padding-left: 20px;
+  width: 100%;
+
+  }
+
+  .wrapper{
+    display: flex;
+    padding-bottom: 40px;
+    
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* gia ta publications*/
+
+  h1 {
+    text-align: center;
+    color: #1a044e;
+  }
+
+  .lili{
+  
+    max-width: 400px;
+
+    margin-bottom: 10px;
+    background-color: #e8e4e4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .lili2{
+  
+    max-width: 800px;
+
+    margin-bottom: 10px;
+    background-color: #e8e4e4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .boxaki{
+    background-color: #b8f8b1;
+    border: 1px solid #3ce911;
+    padding-bottom: 40px;
+
+  }

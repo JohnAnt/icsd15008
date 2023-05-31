@@ -1,0 +1,27 @@
+
+    table{
+       background: linear-gradient(to left,#ffffff ,#eef2f1 ,#ddf5f5, #dbf9fa,#dde7fb ,#a9ccf3,#58a1f5);
+       
+    }
+
+  td {
+    text-align: center;
+    padding: 0; 
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .kenaki{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  h1{
+    background-color: lightblue;
+      border: 1px solid black;
+      padding: 10px;
+      text-align:center;
+  }

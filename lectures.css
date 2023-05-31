@@ -1,0 +1,41 @@
+.list-group1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    float:left;
+  }
+
+  .list-group2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    float:right;
+  }
+
+  .kenaki{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .container{}
+
+  .list-group-item{
+    width: 60rem;
+  }
+
+  .hh3 {
+    text-align: right;
+    
+  }
+
+  h3{
+    color: gold;
+  }
+
+  .bg{
+    background-color: rgb(30, 20, 20);
+  }
